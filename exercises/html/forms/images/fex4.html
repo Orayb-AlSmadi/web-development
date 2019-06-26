@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Form Exercise #4</title>
+	<style type="text/css">
+
+			fieldset{
+				background: #f9ffba;
+				margin: 0 auto;
+				/*align-content: center;
+				align-self: center;
+				align-items: center;*/
+				width: 50%;
+			}
+
+	</style>
+
+</head>
+<body>
+	
+	<form> 
+    <fieldset> 
+		<legend> Personal Details </legend> 
+		<label>First name: <input type="text" name="first name"> </br> </label>
+		<label>Last name: <input type="text" name="Lastname"> </br> </label>	
+		<label> Email: <input type="Email" name="Email"> </br> </label>	
+
+		<label> Gender: 
+			<input type="radio" name="gender" value="male"> Male 
+			<input type="radio" name="gender" value="female"> Female<br> </label> 
+
+	 </fieldset>
+	 </form>
+
+
+
+		<form> 
+    <fieldset> 
+		<legend> Magazines </legend> 
+	
+		<input type="checkbox" name="Magazines" value=""> Stavanger Aftenblad<br>
+		<input type="checkbox" name="Magazines" value="">  Teknisk Ukeblad <br>
+		<input type="checkbox" name="Magazines" value=""> Se og Hør<br>
+		<input type="checkbox" name="Magazines" value=""> Familien
+
+	 </fieldset>
+	</form>
+
+	
+		<form> 
+    <fieldset> 
+		<legend> Subscription </legend> 
+				<label> 
+		Period: 
+		<select>
+  			<option value="6"> 6 months</option>
+  			<option value="12"> 12 months</option>
+  			<option value="18"> 18 months</option>
+  			<option value="24"> 24 months</option>
+		</select>
+		<br>
+		</label>
+		</fieldset>
+	</form>
+	<br>
+
+	<button style="	margin: 0 auto;
+ display: flex; justify-content: center;     align-items:center; "> Subscribe </button>
+
+
+</body>
+</html>
