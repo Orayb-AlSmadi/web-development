@@ -8,11 +8,17 @@
 			fieldset{
 				background: #f9ffba;
 				margin: 0 auto;
-				/*align-content: center;
-				align-self: center;
-				align-items: center;*/
+				align-content: center;
 				width: 50%;
 			}
+
+			label
+			{
+				margin: 0 auto;
+				display: flex; justify-content: center;     align-items:center;
+			}
+
+
 
 	</style>
 
@@ -24,7 +30,7 @@
 		<legend> Personal Details </legend> 
 		<label>First name: <input type="text" name="first name"> </br> </label>
 		<label>Last name: <input type="text" name="Lastname"> </br> </label>	
-		<label> Email: <input type="Email" name="Email"> </br> </label>	
+		<label style="margin-right: 15px;"> Email adress: <input type="Email" name="Email"> </br> </label>	
 
 		<label> Gender: 
 			<input type="radio" name="gender" value="male"> Male 
