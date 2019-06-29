@@ -1,5 +1,37 @@
 /* this is for you to complete */
-ul{
+/*ul:nth-child(2){
 	color: blue;
-background: red;	
+}*/
+
+/*li:nth-child(3){
+	color: blue;
+
+}*/
+
+div:first-child > p > a {
+	color: green;
 }
+
+ul > li > a {
+	color: red;
+	font-weight: bold;
+}
+
+ul:first-child > li  {
+	color: blue;
+	
+}
+
+
+div:nth-child(2) > p > a{
+	color: purple;
+	background-color: yellow;	
+}
+
+ul > li:first-child{
+	font-weight: bold;
+}
+
+ul> li:nth-child(2) > ul > li:nth-child(3) > ul {
+	list-style: none;
+} 
