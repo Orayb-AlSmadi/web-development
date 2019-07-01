@@ -14,35 +14,50 @@
         }
 
         nav {
-            width: 20%;
+            display: block;
+            background-color: #e3e3e3;
             padding-top: 20px;
+            height: 100%;
             float:right;
             width:200px;
         }
 
         main {
-            position: absolute;
-            top: 80px; /* same as the height of header */
-            left: 20%; /* same as the width of nav */
-            width: 80%;
-            padding-top: 20px;
-            float: left;
+           display: block;
+           position: relative;
+            top: 0px; /* same as the height of header */
+            left: 0%; /* same as the width of nav */
+            width: 73%;
+            background-color: white;
+            height: 100%;
+
         }
 
         p {
-            margin: 1em;
+            padding: 1em;
         }
 
 
 body {
    margin: auto;
-  border: 3px solid green;
-  padding: 10px;
-  width: 80%
+  background-color: #ffffcc;
+  height: 100vh;
+
+  width: 80%;
   min-width:600px;
   max-width: 960px;  
 }
 
+footer{
+    background-color: gray;
+    height: 30px;
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    text-align: center;
+}
     </style>
 </head>
 <body>
@@ -90,5 +105,6 @@ body {
         ipsum. Fusce ornare ligula eu orci porttitor, imperdiet mattis nisl tincidunt.</p>
 </main>
 
+<footer>copy right </footer>
 </body>
 </html>
