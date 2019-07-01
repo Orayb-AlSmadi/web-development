@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ex3</title>
+
+    <style>
+    .container {
+        display: grid;
+        background-color: grey;
+        grid-template-columns: 20% 80%;
+        
+    }
+
+    .inputs{
+
+    display: grid;
+    grid-template-rows: 30% 30% 30% 10%
+    margin: 15px;
+    }
+
+    input{
+        width: 90%
+    }
+    
+    </style>
+</head>
+<body>
+   
+    
+<div class= "container">
+
+    <label> comment </br> <textarea rows="10" cols="20" name="comment" form="usrform">
+           </textarea>
+         </label> 
+         
+         
+     <div class="inputs">
+            <label> Name </br> <input type="text" id="name" name="name"/>
+              </label> 
+
+            <label> Email </br> <input type="email"/>
+              </label> 
+
+            <label> Phone </br> <input type="number"/>
+              </label> 
+
+    <input type="submit" />
+     </div>
+  
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
